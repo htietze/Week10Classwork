@@ -9,7 +9,7 @@ let router = express.Router()
 // a request to this route will get the json response
 // {"message":"hello!"}
 router.get('/', function(req, res, next) {
-    res.json({'message': 'Hey Alex, how\'s it going?'})
+    res.json({'message': 'bup'})
 })
 
 module.exports = router
