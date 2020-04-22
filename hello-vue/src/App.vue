@@ -1,15 +1,19 @@
 <template>
+<!-- more html for displaying, showing the parent. -->
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Hey, welcome to whatever this app is."/>
+    <HelloWorld msg="Hey, welcome to some kinda app."/>
   </div>
 </template>
 
 <script>
+// importing the component so it can be set as a child in the components section
 import HelloWorld from './components/HelloWorld.vue'
 
 export default {
+  // vue app setup!
   name: 'App',
+  // setting the HelloWorld component as the child
   components: {
     HelloWorld
   }
